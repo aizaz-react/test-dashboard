@@ -10,6 +10,8 @@ $font-inter: "Inter", sans-serif;
 }
 
 .drawer {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
   width: 15rem;
   background-color: #555555;
   display: flex;
@@ -92,6 +94,10 @@ $font-inter: "Inter", sans-serif;
     gap: 1rem;
     border-radius: 0.6rem;
   }
+}
+
+.drawer::-webkit-scrollbar {
+  display: none;
 }
 
 .components {

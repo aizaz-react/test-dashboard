@@ -201,7 +201,6 @@ const array = {
       renderCell: ({ value }) => <p style={{ color: "#1D84C6" }}>{value}</p>,
       editable: false,
       flex: 1,
-      headerName: "IP ADDRESS",
     },
     {
       field: "address",
